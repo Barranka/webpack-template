@@ -32,6 +32,7 @@ module.exports = (env, argv) => {
   };
 
   return {
+    target: 'web',
     context: path.resolve(__dirname, 'src'),
     entry: {
       main: [
